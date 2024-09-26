@@ -1,5 +1,7 @@
 # numver
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/yankeguo/numver.svg)](https://pkg.go.dev/github.com/yankeguo/numver)
+
 [![codecov](https://codecov.io/gh/yankeguo/numver/graph/badge.svg?token=TT65AIK87B)](https://codecov.io/gh/yankeguo/numver)
 
 A library for extracting numeric parts from version strings

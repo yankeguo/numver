@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.1.1 - 2024-09-26
+#### Documentation
+- update README.md [skip ci] - (fd35918) - GUO YANKE
+- update README.md [skip ci] - (e277eda) - GUO YANKE
+#### Refactoring
+- add VersionExtractor definition - (c9299ca) - GUO YANKE
+
+- - -
+
 ## v0.1.0 - 2024-09-26
 #### Documentation
 - update README.md [skip ci] - (fcbf7e1) - GUO YANKE

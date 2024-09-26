@@ -1,5 +1,8 @@
 package numver
 
+// VersionExtractor is a function to extract a version component from a string.
+type VersionExtractor func(src string) (ver string, ok bool)
+
 // SearchOptions is a set of options for the Search function.
 type SearchOptions struct {
 	// Items is a list of items to search.
@@ -7,7 +10,7 @@ type SearchOptions struct {
 	// Constraint is a version constraint to match.
 	Constraint string
 	// Extractor is a function to extract a version from an item.
-	Extractor func(src string) (ver string, ok bool)
+	Extractor VersionExtractor
 	// Descending is a flag to search in descending order.
 	Descending bool
 }
